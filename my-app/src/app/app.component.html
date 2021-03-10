@@ -1,0 +1,794 @@
+<div class="navs">
+ <div class="hamburger"
+      (click)="show()">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+ </div>
+</div>
+
+<div class="main">
+ 
+ <div class="grandparent">
+  <div class="parent">
+   <div class="child1 child"
+        [@headerAnim]="headerState">
+    <div class="block1">
+     <p class="headerFont">Meditation</p>
+    </div>
+    <div class="block2">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpRt3tpzbxPRNMHSzBBf9aNADTDvq_MhrVA&usqp=CAU"
+          class="rounded-circle"
+          style="width:100px;
+                 opacity:0.8;">
+     <div class="card myHeaderCard m-2">
+      <div class="card-body">
+       <blockquote class="blockquote">
+        <p class="myCardText">We are shaped by our thoughts; we become what we think.</p>
+        <footer class="blockquote-footer">
+         Gautam Buddha
+        </footer>
+       </blockquote>
+      </div>
+     </div>
+    </div>
+    <div class="block3">
+     <ul class="list-group
+                header-list
+                list-group-flush">
+
+      <li class="list-group-item
+                 option-a
+                 list-group-item-action"
+          *ngIf="list1a==1"
+          @fadeUpDown>
+       Condition your mind
+      </li>
+      <li class="list-group-item
+                 option-b
+                 list-group-item-action"
+          *ngIf="list1b==1"
+          @fadeUpDown>
+       focus on your focus.
+      </li>
+      <li class="list-group-item
+                 option-c
+                 list-group-item-action"
+          *ngIf="list1c==1"
+           @fadeUpDown>
+       Start session for free
+      </li>
+     </ul>
+    </div>
+   </div>
+   
+   <div class="child2 child"
+        [@headerAnim]="headerState">
+    <div class="block1">
+    </div>
+    <div class="block2">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpRt3tpzbxPRNMHSzBBf9aNADTDvq_MhrVA&usqp=CAU"
+          style="width:100px;
+                 opacity:0.8"
+          class="rounded-circle">
+     <div class="card myHeaderCard m-2">
+      <div class="card-body">
+       <blockquote class="blockquote">
+        <p class="myCardText">
+         When the mind is pure, joy
+         follows like a shadow that never leaves.
+        </p>
+        <footer class="blockquote-footer">
+         Gautam Buddha
+        </footer>
+       </blockquote>
+
+      </div>
+     </div>
+    </div>
+    <div class="block3">
+     <ul class="list-group
+                list-group-flush
+                header-list">
+      <li class="list-group-item
+                 list-group-item-action
+                 option-a"
+          *ngIf="list2a==1"
+          @fadeUpDown>
+       Condition your mind
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-b"
+          *ngIf="list2b==1"
+          @fadeUpDown>
+       focus on your focus
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-c"
+          *ngIf="list2c==1"
+          @fadeUpDown>
+       Start session for free
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="child3 child"
+        [@headerAnim]="headerState">
+    <div class="block1">
+    </div>
+    <div class="block2">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpRt3tpzbxPRNMHSzBBf9aNADTDvq_MhrVA&usqp=CAU"
+          class="rounded-circle"
+          style="width:100px;
+                 opacity:0.8">
+     <div class="card myHeaderCard m-2">
+      <div class="card-body">
+       <blockquote class="blockquote">
+        <p class="myCardText">
+         There is nothing more dreadful than
+         the habit of doubt.
+        </p>
+        <footer class="blockquote-footer">
+         Gautam Buddha
+        </footer>
+       </blockquote>
+      </div>
+     </div>
+    </div>
+    <div class="block3">
+     <ul class="list-group
+                list-group-flush
+                headerList">
+      <li class="list-group-item
+                 list-group-item-action
+                 option-a"
+          *ngIf="list3a==1"
+          @fadeUpDown>
+       Condition your mind
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-b"
+          *ngIf="list3b==1"
+          @fadeUpDown>
+       focus on your focus
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-c"
+
+          *ngIf="list3c==1"
+          @fadeUpDown>
+       Start session for free
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="child4 child"
+        [@headerAnim]="headerState">
+    <div class="block1">
+    </div>
+    <div class="block2">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpRt3tpzbxPRNMHSzBBf9aNADTDvq_MhrVA&usqp=CAU"
+          class="rounded-circle"
+          style="width:100px;
+                 opacity:0.8">
+     <div class="card myHeaderCard m-2">
+      <div class="card-body">
+       <blockquote class="blockquote">
+        <p class="myCardText">
+         Every morning we are born again. What
+         we do today matters most.
+        </p>
+        <footer class="blockquote-footer">
+         Gautam Buddha
+        </footer>
+       </blockquote>
+      </div>
+     </div>
+    </div>
+    <div class="block3">
+     <ul class="headerList
+                list-group
+                list-group-flush">
+      <li class="list-group-item
+                 list-group-item-action
+                 option-a"
+          *ngIf="list4a==1"
+          @fadeUpDown>
+ 
+       Condition your mind
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-b"
+          *ngIf="list4b==1"
+          @fadeUpDown>
+      focus on your focus
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-c"
+          *ngIf="list4c==1"
+          @fadeUpDown>
+       Start session for free
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="child5 child"
+        [@headerAnim]="headerState">
+    <div class="block1">
+    </div>
+    <div class="block2">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpRt3tpzbxPRNMHSzBBf9aNADTDvq_MhrVA&usqp=CAU"
+          style="width:100px;
+                 opacity:0.8"
+          class="rounded-circle">
+     <div class="card myHeaderCard m-2">
+      <div class="card-body">
+       <blockquote class="blockquote">
+        <p class="myCardText">
+         If anything is worth doing, do it
+         with all your heart
+        </p>
+        <footer class="blockquote-footer">
+         Gautam Buddha
+        </footer>
+       </blockquote>
+      </div>
+     </div>
+    </div>
+    <div class="block3">
+     <ul class="headerList
+                list-group
+                list-group-flush">
+
+      <li class="list-group-item
+                 list-group-item-action
+                 option-a"
+          *ngIf="list5a==1"
+           @fadeUpDown>
+       Condition your mind
+      </li>
+      <li class="list-group-item
+                 list-group-item-action
+                 option-b"
+          *ngIf="list5b==1"
+           @fadeUpDown>
+       focus on your focus
+      </li>
+      <li class="list-group-item
+                 list-group-item-action 
+                 option-c"
+          *ngIf="list5c==1"
+           @fadeUpDown>
+       Start session for free
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+ 
+
+
+
+ <div class="row mx-0">
+  <div class="col-sm-6 px-0">
+   <div class="myLungsCard">
+    <h1 class="myHeading">
+     The 4-7-8 Breathing Exercise
+    </h1>
+    <ul class="list-group
+               list-group-flush">
+     <li class="list-group-item
+                lungsList
+                list-group-item-action"
+         [@listGrow]="list1state">
+      Inhale 00:0{{inhaleSeconds}}
+     </li>
+     <li class="list-group-item
+                lungsList
+                list-group-item-action"
+         [@listGrow]="list2state">
+      Hold breath 00:0{{holdSeconds}}
+     </li>
+     <li class="list-group-item
+                lungsList
+                list-group-item-action"
+         [@listGrow]="list3state">
+      Exhale 00:0{{exhaleSeconds}}
+     </li>
+    </ul>
+    <p style="font-family:'Open Sans',sans serif">
+     The exercise helps regulate the hormone cortisol, which controls your fight or flight response. This is important because too much cortisol being released in your body too often can have negative long-term health effects.
+    </p>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 myBack">
+   <img src="https://img.icons8.com/emoji/344/lungs-emoji.png"
+        style="width:50%;
+               opacity:0.6"
+        [@lungsGrow]="lungsState">
+  </div>
+ </div>
+
+
+ <div class="brainGrid">
+  <div class="gridb1">
+   <div class="card m-3 mb-4 shadow-lg"
+        (mouseenter)="left()"
+        (mouseleave)="center()">
+    <div class="card-body">
+     <h1 style="font-family:'Open Sans',sans serif;">
+      This side of your brain deals with
+      logic and reasoning
+     </h1>
+    </div>
+   </div>
+  </div>
+  <div class="gridb2">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotepjpxfV6-eGc-eOnFVsfBdNvmUKbCUhvw&usqp=CAU"
+        class="rounded-circle"
+        [@brainPosition]="brainState">
+  </div>
+  <div class="gridb3">
+   <div class="card m-3 mb-4 shadow-lg"
+        (mouseenter)="right()"
+        (mouseleave)="center()">
+    <div class="card-body">
+     <h1 style="font-family:'Open Sans',sans serif">
+      This side of your brain deals with
+      feelings and emotions
+     </h1>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="chatGrid">
+  <p class="myChatText"
+     style="color:black">
+   Your mind remains constantly clustered with thoughts, both
+   redundant and necessary. Share both every once in a while.
+  </p>
+ </div>
+ <div class="row mx-0 chatArea">
+  <div class="col-sm-12 px-0">
+   <div class="row mx-0"
+        *ngFor="let x of happyThoughts"
+        @fadeInOut>
+    <div class="col-sm-6 px-0">
+    
+     <div class="card myChatCard">
+      <div class="card-body">
+       <h6 class="benefitText">
+        A happier version of yourself
+       </h6>
+       <p class="benefitText">
+        {{x.resp}}
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-sm-6 px-0 reference">
+     <h4 class="benefitText"
+         style="color:white">{{x.thought}}</h4>
+                            
+    </div>
+
+   </div>
+  </div>
+ </div>
+ 
+
+
+
+<div class="row mx-0 sadChatArea">
+  <div class="col-sm-12 px-0">
+   <div class="row mx-0"
+        *ngFor="let x of sadThoughts"
+        @fadeInOut>
+    <div class="col-sm-6 px-0">
+
+     <div class="card myChatCard">
+      <div class="card-body">
+       <h6 class="benefitText">
+        A happier version of yourself
+       </h6>
+       <p class="benefitText">
+        {{x.resp}}
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-sm-6 px-0 reference">
+     <h4 class="benefitText"
+         style="color:white">{{x.thought}}</h4>
+
+    </div>
+
+   </div>
+  </div>
+ </div>
+
+
+
+
+
+
+
+ <div class="chatBox">
+  <div class="chatBox1"
+       [@fluidInput]="leftTextState"
+       (mouseenter)="leftTextExpand()">
+   <textarea type="text"
+             placeholder="I'm having positive thoughts"
+             [(ngModel)]="happyThought"
+             class="myInp"
+             rows="5"></textarea>
+  </div>
+  <div class="chatBox2"
+       [@fluidInput]="rightTextState"
+       (mouseenter)="rightTextExpand()">
+   <textarea type="text"
+             placeholder="I'm having negative thoughts"
+             [(ngModel)]="sadThought"
+             class="myInp"
+             rows="5"></textarea>
+  </div>
+ </div>
+ <div class="chatBox">
+  <div class="chatBox1"
+       [@fluidInput]="leftTextState">
+   <button type="button"
+           (click)="appendHappy()"
+           class="referenceButton">
+    Share</button>
+  </div>
+  <div class="chatBox2"
+       [@fluidInput]="rightTextState">
+   <button type="button"
+           (click)="appendSad()"
+           class="referenceButton">
+    Share</button>
+  </div>
+ </div>
+
+
+
+ <div class="container text-center">
+  <h1 style="font-family:'Open Sans',sans serif">
+   Benefits Of Meditation
+  </h1>
+ </div>
+ <div class="myGrid">
+  <div class="seg0"
+       (click)="benefitSelect=0;"></div>
+  <div class="seg1">
+   <p class="myFont">In Marriage</p>
+  </div>
+  <div class="seg2"></div>
+  <div class="seg3"
+       (click)="benefitSelect=1;"></div>
+                   
+ </div>
+ 
+ <div class="row mx-0 oldBenefit"
+      @fadeInOut
+      *ngIf="benefitSelect==0">
+  <div class="col-sm-6 px-0">
+
+   <div class="card"
+        style="opacity:0.8">
+
+    <h1 class="benefitText mt-3">
+     Immunity
+    </h1>
+    <p class="benefitText">
+     Meditation increases energy and improves immune system functioning by reducing cortisol (the main stress hormone) levels in the bloodstream
+    </p>
+    <h1 class="benefitText">Stress</h1>
+    <p class="benefitText mb-3">
+     Meditation reduces the risk of suffering stress-related diseases (diabetes, hypertension, high cholesterol)
+    </p>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 reference">
+   <h1 class="benefitText">
+    In Old People
+   </h1>
+   <button type="button"
+           class="referenceButton">
+    Source
+   </button>
+  </div>
+ </div>
+ 
+ <div class="row mx-0 marriageBenefit"
+      @fadeInOut
+      *ngIf="benefitSelect==1">
+  <div class="col-sm-6 px-0">
+   <div class="card"
+        style="opacity:0.8">
+    <div class="card-body">
+     <h1 class="benefitText mt-3">
+      Self Esteem
+     </h1>
+     <p class="benefitText">
+      Meditation, when mixed with a form of exercise such as yoga, can also improve your self-esteem.
+     </p>
+     <h1 class="benefitText">
+      Strengthens Connection
+     </h1>
+     <p class="benefitText mb-3">
+      By meditating with a partner, you will deepen your connection and improve teamwork. Meditating alone can also strengthen your connection to yourself.
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 reference">
+   <h1 class="benefitText"
+       style="color:white">
+    In Marriage
+   </h1>
+   <button type="button"
+           class="referenceButton"
+           style="color:white;
+                  border:1px solid white">
+    Source
+   </button>
+  </div>
+ </div>
+ 
+ <div class="row mx-0 studentBenefit"
+      @fadeInOut
+      *ngIf="benefitSelect==2">
+  <div class="col-sm-6 px-0">
+   <div class="card"
+        style="opacity:0.8">
+    <div class="card-body">
+     <h1 class="benefitText">
+      Memory
+     </h1>
+     <p class="benefitText">
+      Meditation helps reduce mental clutter and offsets the negative effects of stress, which in turn, increases brain processing skills.
+     </p>
+     <h1 class="benefitText">
+      Concentration
+     </h1>
+     <p class="benefitText">
+      Meditation activates the brain areas that help people regulate behavior according to their goals.
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 reference">
+   <h1 class="benefitText"
+       style="color:white">
+    In Students
+   </h1>
+   <button class="referenceButton"
+           style="color:white;
+                  border:1px solid white">
+    Source
+   </button>
+  </div>
+ </div>
+ 
+ <div class="row mx-0 griefBenefit"
+      @fadeInOut
+      *ngIf="benefitSelect==3">
+  <div class="col-sm-6 px-0">
+   <div class="card"
+        style="opacity:0.8">
+    <div class="card-body">
+     <h1 class="benefitText">
+      Happiness Quotient
+     </h1>
+     <p class="benefitText">
+      Mindfulness is about being awake and present to what's unfolding moment to moment.
+     </p>
+     <h1 class="benefitText">
+      Closure
+     </h1>
+     <p class="benefitText">
+      Grief has its own complexity, because your mind is going back and forth between past and present.
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 reference">
+   <h1 class="benefitText"
+       style="color:white">
+    Trauma and Grief
+   </h1>
+   <button type="buton"
+           class="referenceButton"
+           style="color:white;
+                  border:1px solid white">
+    Source
+   </button>
+  </div>
+ </div>
+ <div class="row mx-0 sportsBenefit"
+      @fadeInOut
+      *ngIf="benefitSelect==4">
+  <div class="col-sm-6 px-0">
+   <div class="card"
+        style="opacity:0.8">
+    <div class="card-body">
+     <h1 class="benefitText">
+      Pain
+     </h1>
+     <p class="benefitText">
+      Meditation has been proven to sharply reduce a person’s sensitivity to pain
+     </p>
+     <h1 class="benefitText">
+      Sleep
+     </h1>
+     <p class="benefitText">
+      Meditation techniques evoke the relaxation response, a deep physiological shift in the body
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="col-sm-6 px-0 reference">
+   <h1 class="benefitText"
+       style="color:white">
+    In sports and Fitness
+   </h1>
+   <button type="button"
+           class="referenceButton"
+           style="color:white;
+                  border:1px solid white">
+    Source
+   </button>
+  </div>
+ </div>
+ <div class="newGrid">
+  <div class="seg4"
+       (click)="benefitSelect=2">
+  </div>
+  <div class="seg5">
+   <p class="myFont">In Senior Citizens</p>
+  </div>
+  <div class="seg6"
+       (click)="benefitSelect=4">
+  </div>
+  <div class="seg7">
+   <p class="myFont">In<br>Fitness</p>
+  </div>
+  <div class="seg8"></div>
+  <div class="seg9">
+   <p class="myFont">In students</p>
+  </div>
+  <div class="seg10"
+       (click)="benefitSelect=3">
+  </div>
+  <div class="seg11">
+  </div>
+  <div class="seg12">
+   <p class="myFont">Trauma and Grief</p>
+  </div>
+  <div class="seg13"></div>
+  <div class="seg14"></div>
+ </div>
+ 
+ 
+ <div class="row mx-0 customFooter">
+  <div class="col-sm-6 px-0 leftArea">
+   <div class="box1 box">
+    <div class="up">
+     <div class="myTop">
+      <img src="https://cdn0.iconfinder.com/data/icons/digital-economy/64/technology-infrastructure-internet-computer-information-service-512.png"
+           style="width:50px">
+      <img src="https://cdn3.iconfinder.com/data/icons/scenarium-vol-8/128/020_network-512.png"
+           style="width:50px">
+      <img src="https://cdn0.iconfinder.com/data/icons/digital-economy/64/creative-thinking-brain-process-perspective-logic-512.png"
+           style="width:50px">
+      <img src="https://cdn0.iconfinder.com/data/icons/digital-economy/64/innovation-process-light-idea-revolution-512.png"
+           style="width:50px">
+     </div>
+    </div>
+    <div class="down">
+     <p class="footer-top">
+      Provide us with your valuable feedback
+     </p>
+    </div>
+   </div>
+   <div class="box2 box">
+    <div class="myCard">
+     <div class="imageArea">
+      <img src="https://cdn0.iconfinder.com/data/icons/digital-economy/64/creative-thinking-brain-process-perspective-logic-512.png"
+           style="width:50px">
+     </div>
+     <div class="textBox">
+      <p class="myCardText text1">Think<br>outside</p>
+
+     </div>               
+     <div class="textBox2">
+      <p class="myCardText text2">the box, always</p>
+     </div>
+    </div>
+   </div>
+   <div class="box3 box">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+         style="width:80px;height:80px">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+         style="width:80px;height:20px">
+    <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+         style="width:80px;height:66px">
+   </div>
+   <div class="box4 box">
+    <div class="box41 box">
+     <p class="footer-note">
+      Connect with us via:
+     </p>
+    </div>
+    <div class="box42 box">
+     <div class="social">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/whatsapp_social_media_logo-256.png"
+           style="width:50px">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/instagram_online_social_media-256.png"
+           style="width:50px">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-256.png"
+           style="width:50px">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/facebook_online_social_media-256.png"
+           style="width:50px">
+     </div>
+    </div>
+   </div>
+  </div>
+                      
+  <div class="col-sm-6 px-0 rightArea">
+   <div class="container
+               myContainer">
+    <form method="POST">
+     
+     <div class="form-div">
+      <div class="form-div-left">
+       <input type="text"
+              class="name"
+              placeholder="First Name">
+      </div>
+      <div class="form-div-right">
+       <input type="text"
+              class="name"
+              placeholder="Last Name">
+      </div>
+     </div>
+     <div class="row mx-0">
+      <div class="col-sm-12 px-0">
+       <textarea type="text"
+                 rows="5"
+                 class="feedBack mt-2"
+                 placeholder="Give us your feedback"></textarea>
+      </div>
+     </div>
+     <div class="row mx-0">
+      <div class="col-sm-12 px-0 text-center">
+       <button type="button"
+               class="send mt-2">
+        Send
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+
+ 
+</div>
+<ul class="list-group
+           list-group-flush
+           myOp"
+    [@ham]="myState">
+ <li class="list-group-item myLink">Home</li>
+ <li class="list-group-item myLink">Resume</li>
+ <li class="list-group-item myLink">Collapse</li>
+</ul>

@@ -1,0 +1,206 @@
+
+.myFont{
+ font-family:'Open Sans',sans serif;
+ font-size:200%;
+ position:absolute;
+ top:10%;
+ left:10%;
+}
+.myGrid{
+ height:250px;
+ width:100%;
+ display:grid;
+ grid-template-rows:1fr 1fr;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.seg0{
+ grid-row-start:1;
+ grid-row-end:3;
+ grid-column-start:1;
+ grid-column-end:3;
+ background-image:url('https://images.unsplash.com/photo-1575473302511-e4cf5eac688b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=784&q=80');
+ background-position:center;
+ background-size:120%;
+ background-repeat:no-repeat;
+ transition:1s;
+ opacity:1;
+}
+.seg0:hover{
+ background-size:150%;
+ opacity:0.8;
+}
+.seg1{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:3;
+ grid-column-end:4;
+ position:relative;
+}
+
+.seg2{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:3;
+ grid-column-end:4;
+ background-image:url('https://img.icons8.com/officel/344/old-woman-skin-type-6.png');
+ background-size:60%;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-color:#f1e0d6;
+ transition:1s;
+}
+.seg2:hover{
+ background-size:40%;
+}
+.seg3{
+ grid-row-start:1;
+ grid-row-end:3;
+ grid-column-start:4;
+ grid-column-end:7;
+ background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/333-pai734520-rob.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=aa7d4971c3db9a76de198a48fee9d587');
+ background-position:center;
+ background-size:100%;
+ background-repeat:no-repeat;
+ opacity:1;
+ transition:1s;
+}
+.seg3:hover{
+ background-size:130%;
+ opacity:0.8;
+}
+.newGrid{
+ height:260px;
+ width:100%;
+ display:grid;
+ grid-template-rows:1fr 1fr;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.seg4{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:1;
+ grid-column-end:2;
+ background-image:url('https://images.unsplash.com/photo-1460518451285-97b6aa326961?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+ background-position:center;
+ background-size:119%;
+ background-repeat:no-repeat;
+ opacity:1;
+ transition:1s;
+}
+.seg4:hover{
+ opacity:0.8;
+ background-size:150%;
+}
+.seg5{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:2;
+ grid-column-end:3;
+ position:relative;
+}
+
+.seg6{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:3;
+ grid-column-end:5;
+ background-image:url('https://images.pexels.com/photos/4761663/pexels-photo-4761663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+ background-position:center;
+ background-size:100%;
+ background-repeat:no-repeat;
+ opacity:1;
+ transition:1s;
+}
+.seg6:hover{
+ opacity:0.8;
+ background-size:130%;
+}
+.seg7{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:5;
+ grid-column-end:6;
+ position:relative;
+}
+.seg8{
+ grid-row-start:1;
+ grid-row-end:2;
+ grid-column-start:6;
+ grid-column-end:7;
+ background-image:url('https://img.icons8.com/dusk/344/happy.png');
+ background-size:60%;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-color:#fbeec1;
+ transition:1s;
+}
+.seg8:hover{
+ background-size:40%;
+}
+.seg9{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:1;
+ grid-column-end:2;
+ position:relative;
+}
+.seg10{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:2;
+ grid-column-end:3;
+ background-image:url('https://image.shutterstock.com/image-photo/portrait-young-businesswoman-showing-sad-260nw-792868393.jpg');
+ background-size:130%;
+ background-position:center;
+ background-repeat:no-repeat;
+ opacity:1;
+ transition:1s;
+}
+.seg10:hover{
+ opacity:0.8;
+ background-size:170%;
+}
+.seg11{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:3;
+ grid-column-end:4;
+ background-image:url('https://img.icons8.com/ios-filled/344/grief.png');
+ background-position:center;
+ background-size:60%;
+ background-color:#e8a87c;
+ background-repeat:no-repeat;
+ transition:1s;
+}
+.seg11:hover{
+ background-size:40%;
+}
+.seg12{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:4;
+ grud-column-end:5;
+ position:relative;
+}
+.seg13{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:5;
+ grid-column-end:6;
+ background-image:url('https://images.unsplash.com/photo-1547357247-65c96cee979f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+ background-size:119%;
+ background-position:center;
+ background-repeat:no-repeat;
+ opacity:1;
+ transition:1s;
+}
+.seg13:hover{
+ opacity:0.8;
+ background-size:150%;
+}
+.seg14{
+ grid-row-start:2;
+ grid-row-end:3;
+ grid-column-start:6;
+ grid-column-end:7;
+}

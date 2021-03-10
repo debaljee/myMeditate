@@ -1,0 +1,58 @@
+.oldBenefit{
+ background-image:url('https://images.unsplash.com/photo-1523682383061-9f5457b8cf65?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+ background-size:cover;
+ background-poition:center;
+ background-repeat:no-repeat;
+}
+.benefitText{
+ margin-left:10%;
+ margin-right:10%;
+ font-family:'Open Sans',sans serif;
+}
+.reference{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+}
+.referenceButton{
+ width:40%;
+ padding:20px 30px;
+ font-family:'Open Sans',sans serif;
+ font-size:200%;
+ background:none;
+ border:1px solid black;
+ border-radius:50px;
+ outline:none;
+ transition:1s;
+}
+.referenceButton:hover{
+ width:60%;
+ outline:none;
+ font-size:230%;
+}
+.marriageBenefit{
+ background-image:url('https://images.unsplash.com/photo-1516641239768-dc3572bdca04?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnJpYWdlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+}
+.studentBenefit{
+ background-image:url('https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+}
+.griefBenefit{
+ background-image:url('https://images.unsplash.com/photo-1456162018889-1d2b969f7084?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80');
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+
+}
+.sportsBenefit{
+ background-image:url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+}
